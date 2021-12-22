@@ -13,5 +13,5 @@ This project is a simplified amalgam of other projects. It uses four digitial in
 
 On the surface it would seem this could be done within the Arduino itself but there can be many reasons for yealing control to a central controller like restricting fill times or measuring filling times to get a measure of usage. 
 
-## What the hardware might look like
+## Hardware Description
 
