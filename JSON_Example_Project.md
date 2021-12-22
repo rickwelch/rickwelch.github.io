@@ -21,4 +21,4 @@ Parts:
 [Prototype Shield](https://www.amazon.com/ElectroCookie-Arduino-Prototype-Stackable-Expansion/dp/B084CX1RVY), 
 [Relay Board](https://www.amazon.com/ELEGOO-Channel-Optocoupler-Arduino-Raspberry/dp/B01HEQF5HU/) 
 
-
+![Project Schematic](https://rickwelch.github.io/JSON_Example_Project/Example_Project.PNG)
