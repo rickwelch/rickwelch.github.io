@@ -1,4 +1,4 @@
-[Arduino JSON service provider example_project](rickwelch.github.io/JSON_Example_Project/index.md)
+[Arduino JSON service provider example_project](rickwelch.github.io/JSON_Example_Project/)
 
 ---
 You can use the [editor on GitHub](https://github.com/rickwelch/rickwelch.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
