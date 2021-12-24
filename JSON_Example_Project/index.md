@@ -1,13 +1,13 @@
 ## Project Description
 
-This project is a simplified amalgam of other projects. It uses four digitial inputs and four digital outputs. The inputs are connected to float switches that will pull the inputs to ground if the liquid in the tank is above the float switch. The four outputs are connected to a relay board to control either pumps or flow switches to fill the tanks. 
+This project is a simplified amalgam of other projects. It is for demonstration purposes to show how to use and modify the Service Provider code. The project uses four digitial inputs and four digital outputs. The inputs are connected to float switches that will pull the inputs to ground if the liquid in the tank is above the float switch. The four outputs are connected to a relay board to control either pumps or flow switches to fill the tanks. 
 
-On the surface it would seem this could be done within the Arduino itself but there can be many reasons for yealing control to a central controller like restricting fill times or measuring filling times to get a measure of usage. 
+On the surface it would seem this could be done within the Arduino itself but there can be many reasons for yealding control to a central controller such as restricting fill times to certain times of day or clock filling times to get a measure of usage. 
 
 ## Hardware Description
 
 Parts:  
-[1 Arduino WiFi](https://www.amazon.com/Arduino-UNO-WiFi-REV2-ABX00021/dp/B07MK598QV) or [1 Arduino Uno](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6) plus an [Ethernet Shield](https://www.amazon.com/KEYESTUDIO-Ethernet-Duemilanove-Connects-Internet/dp/B01E5JY7UU/) (Projects for each will be linked as soon as they become public)
+[1 Arduino WiFi](https://www.amazon.com/Arduino-UNO-WiFi-REV2-ABX00021/dp/B07MK598QV) or [1 Arduino Uno](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6) plus an [Ethernet Shield](https://www.amazon.com/KEYESTUDIO-Ethernet-Duemilanove-Connects-Internet/dp/B01E5JY7UU/) (Projects for each will be linked as soon as they are tested)
 [4 Float Switchs](https://www.amazon.com/Anndason-Pieces-Aquarium-Mounted-Horizontal/dp/B071ZG4Y34), 
 [1 Prototype Shield](https://www.amazon.com/ElectroCookie-Arduino-Prototype-Stackable-Expansion/dp/B084CX1RVY), 
 [1 Relay Board](https://www.amazon.com/ELEGOO-Channel-Optocoupler-Arduino-Raspberry/dp/B01HEQF5HU/) 
