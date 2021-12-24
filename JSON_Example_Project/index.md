@@ -29,4 +29,5 @@ The ~/include folder has three files, wifi_secrets that you must update with you
 
 Once comiled and uploaded to the Arduino, direct a web browser to the IP address specified in local_include.h. You should be returned the following
 ```
+{"Controller":"Example Project","RSSI":"-64 dBm","free_ram":"5203","DigitalIn_0":"1","DigitalIn_1":"1","DigitalIn_2":"1","DigitalIn_3":"1","DigitalOut_4":"1","DigitalOut_5":"1","DigitalOut_6":"1","DigitalOut_7":"1"}
 ```
