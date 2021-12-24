@@ -27,7 +27,14 @@ The ~/include folder has three files, wifi_secrets that you must update with you
 
 ## Using The Device
 
-Once comiled and uploaded to the Arduino, direct a web browser to the IP address specified in local_include.h. You should be returned the following
+Once compiled and uploaded to the Arduino, direct a web browser to the IP address specified in local_include.h. You should be returned the following
 ```
 {"Controller":"Example Project","RSSI":"-64 dBm","free_ram":"5203","DigitalIn_0":"1","DigitalIn_1":"1","DigitalIn_2":"1","DigitalIn_3":"1","DigitalOut_4":"1","DigitalOut_5":"1","DigitalOut_6":"1","DigitalOut_7":"1"}
 ```
+Where Controller is the controller name set in local_include.h, RSSI is the WiFi signal strength, free_ram is the amount of RAM unused on the Arduino and DigitalIn_0 through DigitalIn_3 are the current state of input pins 0 through 3. In the above example, either the cables are not plugged in or all the tanks are below float level. You can connect pins 0-4 to ground and rerun the query to see the dfferent results. 
+
+To change the output value of pin 4, on the browser issue the command: _your-ip-address/command/DigitalOut_4/0_ to set pin 4 low. You should be returned:
+```
+{"Controller":"Example Project","RSSI":"-64 dBm","free_ram":"5203","DigitalIn_0":"1","DigitalIn_1":"1","DigitalIn_2":"1","DigitalIn_3":"1","DigitalOut_4":"0","DigitalOut_5":"1","DigitalOut_6":"1","DigitalOut_7":"1"}
+```
+And pin 4 will be set low.
