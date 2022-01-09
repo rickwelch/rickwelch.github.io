@@ -17,9 +17,9 @@ Schematic:
 
 ## Installation and modification
 
-Links to both projects when available
+The sofware for this project is in the [Arduino HTTP Service Provider Uno WiFi](https://github.com/rickwelch/Arduino_HTTP_Service_Provider_Uno_WiFi) repostitory. A similar project for the Arduino Uno with an Eithernet shield is forthcoming. 
 
-All customization can be done in the ~/include and ~/lib folders. 
+All customization can be done in the ~/include and ~/lib folders. See the REAMD.md files in those folders.
 
 Device drivers live in ~/lib. The Device, DigitalIn, and DigitalOut drivers were copied direclty from the [Arduino Drivers](https://github.com/rickwelch/Arduino-Drivers) library. The Pump driver was copied directly from DigitalOut, it was renamed, the name was changed to Pump in the init() method and the HIGH / LOW abstractions were set in the .h file. See the README in that folder for more information on these drivers and how to create your own drivers.
 
