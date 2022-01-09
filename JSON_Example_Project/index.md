@@ -25,7 +25,7 @@ Device drivers live in ~/lib. The Device, DigitalIn, and DigitalOut drivers were
 
 The ~/include folder has three files, wifi_secrets that you must update with your WiFi information. Compiling and uploading the code beyond that should produce the project described above which you can then test with a protoboard before doing any custom modification.
 
-## Using The Device
+## Using The Controller
 
 Once compiled and uploaded to the Arduino, direct a web browser to the IP address specified in local_include.h. You should be returned the following
 ```
