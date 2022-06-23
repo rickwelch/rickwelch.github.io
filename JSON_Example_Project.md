@@ -3,6 +3,7 @@
 + Description of project
     - simple project with 4 digitial inputs and 4 outputs
     - currently in use for hydroponic tomatoes
+    - [photos here 6/23/22](https://instagram.com/rickwelch26726)
 + Hardware Description
 + Clone and setup
 + How the UI works
