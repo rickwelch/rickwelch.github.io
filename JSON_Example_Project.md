@@ -9,7 +9,9 @@
 
 ## Project Description
 
-This project is a simplified amalgam of other projects. It uses four digitial inputs and four digital outputs. The inputs are connected to float switches that will pull the inputs to ground if the liquid in the tank is above the float switch. The four outputs are connected to a relay board to control either pumps or flow switches to fill the tanks. 
+This project started as a simple example project but became an actual project in use. I finally started to have some success with hydroponic tomatoes and were going away for 2 weeks. I added float switches on the tomato buckets and set up a 5 gallon tank to supply nutrients when the root tanks are low. I'm currently only using three of the four switches and pumps.
+
+This project has four digitial inputs and four digital outputs. The inputs are connected to float switches that will pull the inputs to ground if the liquid in the tank is above the float switch. The four outputs are connected to a relay board to control either pumps or flow switches to fill the tanks. 
 
 On the surface it would seem this could be done within the Arduino itself but there can be many reasons for yealing control to a central controller like restricting fill times or measuring filling times to get a measure of usage. 
 
@@ -20,6 +22,7 @@ Parts:
 [Float Switch](https://www.amazon.com/Anndason-Pieces-Aquarium-Mounted-Horizontal/dp/B071ZG4Y34), 
 [Prototype Shield](https://www.amazon.com/ElectroCookie-Arduino-Prototype-Stackable-Expansion/dp/B084CX1RVY), 
 [Relay Board](https://www.amazon.com/ELEGOO-Channel-Optocoupler-Arduino-Raspberry/dp/B01HEQF5HU/) 
+[Submersable Pump]([)](https://www.amazon.com/dp/B015GOGPSU?ref=ppx_yo2ov_dt_b_product_details&th=1)
 
 Schematic:
 ![Project Schematic](https://rickwelch.github.io/JSON_Example_Project/Example_Project.PNG)
