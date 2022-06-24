@@ -3,6 +3,7 @@
 + Description of project
     - simple project with 4 digitial inputs and 4 outputs
     - currently in use for hydroponic tomatoes
+    - [photos here 6/23/22](https://instagram.com/rickwelch26726)
 + Hardware Description
 + Clone and setup
 + How the UI works
@@ -20,7 +21,8 @@ Parts:
 [1 Arduino WiFi](https://www.amazon.com/Arduino-UNO-WiFi-REV2-ABX00021/dp/B07MK598QV) or [1 Arduino Uno](https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6) plus an [Ethernet Shield](https://www.amazon.com/KEYESTUDIO-Ethernet-Duemilanove-Connects-Internet/dp/B01E5JY7UU/) (Projects for each will be linked as soon as they are tested)
 [4 Float Switchs](https://www.amazon.com/Anndason-Pieces-Aquarium-Mounted-Horizontal/dp/B071ZG4Y34), 
 [1 Prototype Shield](https://www.amazon.com/ElectroCookie-Arduino-Prototype-Stackable-Expansion/dp/B084CX1RVY), 
-[1 Relay Board](https://www.amazon.com/ELEGOO-Channel-Optocoupler-Arduino-Raspberry/dp/B01HEQF5HU/) 
+[1 Relay Board](https://www.amazon.com/ELEGOO-Channel-Optocoupler-Arduino-Raspberry/dp/B01HEQF5HU/),
+[3 Submersible Pumps](https://www.amazon.com/dp/B015GOGPSU)
 
 Schematic:
 ![Project Schematic](https://rickwelch.github.io/JSON_Example_Project/Example_Project.PNG)
